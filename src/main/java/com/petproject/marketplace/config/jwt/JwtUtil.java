@@ -1,6 +1,6 @@
 package com.petproject.marketplace.config.jwt;
 
-import com.petproject.marketplace.model.User;
+import com.petproject.marketplace.model.entity.User;
 import com.petproject.marketplace.repository.UserRepository;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;

@@ -1,4 +1,4 @@
-package com.petproject.marketplace.dto;
+package com.petproject.marketplace.model.dto;
 
 import jakarta.validation.constraints.Size;
 import lombok.Data;

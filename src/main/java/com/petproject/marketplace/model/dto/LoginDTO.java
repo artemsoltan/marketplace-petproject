@@ -1,4 +1,4 @@
-package com.petproject.marketplace.dto;
+package com.petproject.marketplace.model.dto;
 
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
@@ -8,13 +8,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class UserDTO {
-    @Size(min = 4, max = 64)
-    private String name;
-
-    @Size(min = 4, max = 64)
-    private String surname;
-
+public class LoginDTO {
     @Size(min = 4, max = 64)
     private String username;
 

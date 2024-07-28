@@ -1,6 +1,6 @@
 package com.petproject.marketplace.repository;
 
-import com.petproject.marketplace.model.User;
+import com.petproject.marketplace.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

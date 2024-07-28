@@ -1,8 +1,7 @@
 package com.petproject.marketplace.controller;
 
 import com.petproject.marketplace.config.jwt.JwtUtil;
-import com.petproject.marketplace.dto.CreateProductDTO;
-import com.petproject.marketplace.model.Product;
+import com.petproject.marketplace.model.dto.CreateProductDTO;
 import com.petproject.marketplace.service.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

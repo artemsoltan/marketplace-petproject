@@ -1,4 +1,4 @@
-package com.petproject.marketplace.model;
+package com.petproject.marketplace.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

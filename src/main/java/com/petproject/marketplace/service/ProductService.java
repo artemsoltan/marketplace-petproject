@@ -1,11 +1,11 @@
 package com.petproject.marketplace.service;
 
-import com.petproject.marketplace.dto.CreateProductDTO;
+import com.petproject.marketplace.model.dto.CreateProductDTO;
 import com.petproject.marketplace.exception.NotAccessException;
 import com.petproject.marketplace.exception.ProductDoesNotExistsException;
 import com.petproject.marketplace.exception.UserDoesNotExistsException;
-import com.petproject.marketplace.model.Product;
-import com.petproject.marketplace.model.User;
+import com.petproject.marketplace.model.entity.Product;
+import com.petproject.marketplace.model.entity.User;
 import com.petproject.marketplace.repository.ProductRepository;
 import com.petproject.marketplace.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

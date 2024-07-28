@@ -1,4 +1,4 @@
-package com.petproject.marketplace.model;
+package com.petproject.marketplace.model.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -29,7 +29,7 @@ public class Product {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    public Product(String title, String description, int price, User user) {
+    public Product(String title, String description, int price, com.petproject.marketplace.model.entity.User user) {
         this.title = title;
         this.description = description;
         this.price = price;

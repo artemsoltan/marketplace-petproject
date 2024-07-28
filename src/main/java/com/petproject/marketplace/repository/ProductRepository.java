@@ -1,7 +1,7 @@
 package com.petproject.marketplace.repository;
 
-import com.petproject.marketplace.model.Product;
-import com.petproject.marketplace.model.User;
+import com.petproject.marketplace.model.entity.Product;
+import com.petproject.marketplace.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
